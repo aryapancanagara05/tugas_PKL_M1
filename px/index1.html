@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="logo">MyWebsite</div>
+
+        <ul class="menu" id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#" id="openModal">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">☰</div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Selamat datang di website kami </h1>
+            <p>ini contoh landing page dengan interactive navbar, scroll effect, dan modal.</p>
+            <button id="openModalBtn">Hubungi Kami</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>Tentang Kami</h2>
+            <p>
+                Kami adalah tim kreatif yang fokus pada pembuatan website modern,
+                responsif, dan user-friendly. Kami percaya bahwa desain yang baik
+                bukan hanya terlihat menarik, tetapi juga mudah digunakan.
+            </p>
+
+            <div class="about-box">
+                <div class="box">
+                    <h2>Visi</h2>
+                    <p>Menjadi penyedia solusi digital terpercaya dan inovatif.</p>
+                </div>
+
+                <div class="box">
+                    <h2>Misi</h2>
+                    <p>Membantu bisnis berkembang melalui teknologi dan desain modern.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h1>Services</h1>
+        <p>Kami menyediakan berbagai layanan digital terbaik.</p>
+
+        <div class="services-container">
+            <div class="service-box">
+                <h2>Web Design</h2>
+                <p>Desain website modern dan responsif.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>Web Development</h2>
+                <p>Pembuatan website cepat dan optimal.</p>
+            </div>
+
+            <div class="service-box">
+                <h2>UI/UX Design</h2>
+                <p>Tampilan menarik dan mudah digunakan.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Hubungi Kami</h2>
+            <p>Ini contoh modal sederhanaa</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

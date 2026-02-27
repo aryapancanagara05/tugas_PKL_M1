@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,21 @@
     <header>
         <nav>
             <div class="container">
-                <h1 class="logo">MyWebsite</h1>
-                <ul class="box-1">
-                    <li><a href="#home">Beranda</a></li>
-                    <li><a href="#about">Tentang</a></li>
-                    <li><a href="#services">Layanan</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
+                <div class="menu">
+                    <button onclick="menu.hidden^=1">
+                        <h1 class="logo">☰</h1>
+                    </button>
+                    <ul id="menu" hidden>
+                        <a href="#home">Beranda</a>
+                        <a href="#about">Tentang</a>
+                        <a href="#services">Layanan</a>
+                        <a href="#contact">Kontak</a>
+                    </ul>
+                </div>
+
+                <div>
+                    <h1 class="logo">MyWebsite</h1>
+                </div>
             </div>
         </nav>
     </header>
@@ -72,4 +81,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -135,12 +135,12 @@ nav .container {
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
 
 .service-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-20px);
 }
 
 .service-item h3 {
@@ -172,6 +172,25 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+.menu a{
+    flex-direction: column;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+}
+
+.menu{
+    position: relative;
+}
+
+#menu{
+    position:absolute;
+    background-color: gray;
+    box-shadow: #333 0px 2px 10px;
+    border-radius: 7px;
 }
 
 /* Responsive Design */
